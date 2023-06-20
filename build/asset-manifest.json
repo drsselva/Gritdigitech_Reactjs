@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.10d8f408.css",
-    "main.js": "/static/js/main.fca3f2da.js",
+    "main.js": "/static/js/main.6fd4a6e6.js",
     "static/js/787.69cd835b.chunk.js": "/static/js/787.69cd835b.chunk.js",
     "static/media/gordon.svg": "/static/media/gordon.71c522ee4b98d9a5ddf30d884f427314.svg",
     "static/media/starting-a-business-projectpana-1.svg": "/static/media/starting-a-business-projectpana-1.436664b2e0bebf5b9f175f0143bceb97.svg",
@@ -79,11 +79,11 @@
     "static/media/vector-89.svg": "/static/media/vector-89.848f5d2d98352e551c38484660b7c394.svg",
     "static/media/cta-bg.html": "/static/media/cta-bg.da4037b53a6054e93c1e.html",
     "main.10d8f408.css.map": "/static/css/main.10d8f408.css.map",
-    "main.fca3f2da.js.map": "/static/js/main.fca3f2da.js.map",
+    "main.6fd4a6e6.js.map": "/static/js/main.6fd4a6e6.js.map",
     "787.69cd835b.chunk.js.map": "/static/js/787.69cd835b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10d8f408.css",
-    "static/js/main.fca3f2da.js"
+    "static/js/main.6fd4a6e6.js"
   ]
 }

@@ -175,7 +175,7 @@ function Studentdashboard() {
     data.append('learnerId', setidd);
     data.append('feedbackFile', file);
 
-    axios.post("http://44.203.0.129:8989/learner/file/upload", data)
+    axios.post("http://35.175.147.190:8989/learner/file/upload", data)
       .then((res) => {
         console.log(res, "\"fetch course session list Successfully\"")
         toast.success("File Upload Successfully")
@@ -231,7 +231,7 @@ function Studentdashboard() {
                     <img className='proimage' src={getimage ? getimage : getprofiles ? getprofiles.imageUrl : ellipse} />
 
                     {/* <video width="320" height="240" controls >
-            <source src="http://44.203.0.129:8989/api/download028%20Passing%20Callback%20Functions%20Around.mp4" type="video/mp4"/>
+            <source src="http://35.175.147.190:8989/api/download028%20Passing%20Callback%20Functions%20Around.mp4" type="video/mp4"/>
             </video> */}
                     <h5 className="mb-0 fs-5">{getnames ? getnames : getprofiles ? getprofiles.name : "Name"}</h5>
                   </div>

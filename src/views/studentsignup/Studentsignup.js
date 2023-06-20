@@ -62,7 +62,7 @@ function Studentsignup({ signupUsers, signUsers, logUsersResponse, loading }) {
             "userRole": "Learner"
          }
          console.log(formValues)
-         axios.post("http://44.203.0.129:8989/api/user/create", data)
+         axios.post("http://35.175.147.190:8989/api/user/create", data)
             .then((res) => {
                console.log(res.data, "aasssssssssssssssss")
                if (res.data.message == "User created successfully." ) {

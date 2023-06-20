@@ -22,7 +22,7 @@ function Marketplace() {
 
   useEffect(() => {
 
-    axios.get("http://44.203.0.129:8989/api/getAllCourse")
+    axios.get("http://35.175.147.190:8989/api/getAllCourse")
     .then((res)=>{
       console.log(res.data)
       setCourseList(res.data)

@@ -60,7 +60,7 @@ const VideoPlayer = () => {
     data.append('learnerId', setidd);
     data.append('feedbackFile', file);
 
-    axios.post("http://44.203.0.129:8989/learner/file/upload", data)
+    axios.post("http://35.175.147.190:8989/learner/file/upload", data)
     .then((res) => {
         console.log(res, "\"fetch course session list Successfully\"")
         toast.success("File Upload Successfully")

@@ -10,8 +10,8 @@ const helper = {
 
 	backendAPI: function () {
 
-		// let url = "http://44.203.0.129:8989/api/";
-    let url = "http://44.203.0.129:8989/api/loginUser/Test@123.com/Test@123"
+		// let url = "http://35.175.147.190:8989/api/";
+    let url = "http://35.175.147.190:8989/api/loginUser/Test@123.com/Test@123"
 
 		return url;
 	},

@@ -49,7 +49,7 @@ function Editprofile() {
             }
 
 
-            axios.put("http://44.203.0.129:8989/api/user/update", data)
+            axios.put("http://35.175.147.190:8989/api/user/update", data)
                 .then((res) => {
                     console.log(res.data, "responsecreatecourse")
                     getuserbyid()
@@ -68,7 +68,7 @@ function Editprofile() {
 
     const getuserbyid = () => {
         console.log("check")
-        axios.get("http://44.203.0.129:8989/api/user/get/"+EducatorId)
+        axios.get("http://35.175.147.190:8989/api/user/get/"+EducatorId)
             .then((res) => {
                 console.log(res.data, "getuserbyidgetuserbyid")
                 localStorage.setItem("profileImg", res.data.data.profileImg)
